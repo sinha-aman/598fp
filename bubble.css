@@ -50,3 +50,9 @@ text{
     top: 100%;
     left: 0;
 }
+
+
+#slider {
+    width: 400px;
+    margin-left: 20px;
+}

@@ -1,9 +1,4 @@
-/**
- * Created by Aman on 3/15/15.
- */
-window.onload = function () {
-
-    // Coded by Patrick.Brockmann@lsce.ipsl.fr
+function map() {
 
     $(document).ready(function () {
 
@@ -17,6 +12,7 @@ window.onload = function () {
                 redraw(ui.value.toString());
             }
         });
+
         $("#year").val($("#slider").slider("value"));
 
         var w = 1200;
@@ -38,10 +34,10 @@ window.onload = function () {
         var path = d3.geo.path()
             .projection(xy);
 
-        var svg1 = d3.select("#graph").append("svg:svg")
+        var svg1 = d3.select("#map").append("svg")
             .attr("width", w)
             .attr("height", h)
-            .attr("id","bubble");
+            .attr("id","bubble-svg");
 
         svg1.call(tip);
 
@@ -69,14 +65,9 @@ window.onload = function () {
                 })
         });
 
-
-//http://stackoverflow.com/questions/11386150/lat-lon-positon-on-a-d3-js-map
-// +convert to string to number
-
         var scaleFactor = 1. / 15000.;
 
         d3.csv("countriesBubble.csv", function (csv) {
-
 
             circles.selectAll("circle")
                 .data(csv)
@@ -132,7 +123,6 @@ window.onload = function () {
                 .attr("title", function (d) {
                     return d["country"] + ": " + d[year];
                 });
-
 
         }
 

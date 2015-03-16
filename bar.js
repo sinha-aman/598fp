@@ -1,11 +1,11 @@
 /**
  * Created by Aman on 2/9/15.
  */
-window.onload = function () {
+function bar () {
 
     var margin = {top: 75, right: 100, bottom: 30, left: 60},
-        width = 1400 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        width = 1000 - margin.left - margin.right,
+        height = 300 - margin.top - margin.bottom;
 
     var generate = 0;
     var dataset = null;
@@ -48,10 +48,10 @@ window.onload = function () {
         .orient("right")
         .ticks(10);
 
-    var svg2 = d3.select("#chart1").append("svg")
+    var svg2 = d3.select("#bar").append("svg")
         .attr("width", width + margin.right + margin.left)
         .attr("height", height + margin.top + margin.bottom)
-        .attr("id","bar")
+        .attr("id","bar-svg")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 

@@ -5,6 +5,10 @@
     <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    
+    <script type="text/javascript" src="bubble.js"></script>
+    <script type="text/javascript" src="bar.js"></script>
+
 
     <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
     <link rel="stylesheet" type="text/css" href="bubble.css" />
@@ -13,7 +17,7 @@
     <meta charset="UTF-8">
     <title>US Immigration Visualization</title>
 </head>
-<body>
+<body onload="map(); bar();">
 <h2>US Immigration by Countries</h2>
 <h3>expressed in Millions</h3>
 <p>
@@ -21,14 +25,12 @@
     <input type="text" id="year" style="border:0; color:#f6931f; font-weight:bold; " />
 </p>
 
-<div id="slider" style="width: 200px;"></div>
-<div id="graph"></div>
+<div id="map"></div>
+<div id="slider"></div>
+
+<div id="bar"></div>
 <div id="div1"></div>
-<div id="chart1"></div>
 
-
-<script type="text/javascript" src="bubble.js"></script>
-<script type="text/javascript" src="bar.js"></script>
 
 </body>
 </html>
