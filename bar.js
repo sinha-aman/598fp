@@ -77,7 +77,7 @@ function bar () {
             });
         };
 
-        // Define the line
+        // Define the GDP line
         var	valueLine = d3.svg.line()
             .x(function(d) { return x(d.Year) })
             .y(function(d) { return y1(d.gdp) });
@@ -90,8 +90,11 @@ function bar () {
             d.gdp = +d.gdp;
         });
 
+
         if (generate === 0) {
             d3.select('#div1')
+                .attr("background-color","black")
+                .attr("font-color","white")
                 .append("select")
                 .selectAll("option")
                 .data(countryNames)
@@ -230,6 +233,21 @@ function bar () {
             .on("change", function () {
                 var countryName = this.options[this.selectedIndex].__data__;
                 var filtered = filterData(dataset, countryName);
+                console.log(countryName);
+                if (countryName !== "Total"){
+                    $("circle").css("opacity","0");
+                    $("#"+countryName).css("opacity","1");
+                    $("#"+countryName).css("fill","red");
+                    $("#"+countryName).css("stroke","red");
+
+
+                }
+                else{
+                    $("circle").css("opacity","0.7");
+                    $("circle").css("color","steelblue");
+                    $("circle").css("stroke","white");
+                 }
+
                 d3.selectAll("#chartData").remove();
                 update(error, filtered);
 

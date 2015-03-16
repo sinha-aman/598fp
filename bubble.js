@@ -82,8 +82,8 @@ function map() {
                 .attr("r", function (d) {
                     return (+d["1950"]) * scaleFactor;
                 })
-                .attr("title", function (d) {
-                    return d["country"] + ": " + d["1820"];
+                .attr("id", function (d) {
+                    return d["country"];
                 })
 
                 .on("mouseover", function (d) {

@@ -1,12 +1,8 @@
 .chart rect {
     fill: steelblue;
     stroke: white;
-
 }
 
-body {
-    font: 10px sans-serif;
-}
 
 .axis path,
 .axis line {
@@ -76,4 +72,13 @@ body {
     margin: -1px 0 0 0;
     top: 100%;
     left: 0;
+}
+
+#bar {
+    padding: 10px;
+}
+
+#div1 {
+    margin-top: 15px;
+    margin-left: 15px;
 }
