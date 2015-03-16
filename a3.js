@@ -4,7 +4,7 @@
 window.onload = function () {
 
     var margin = {top: 75, right: 100, bottom: 30, left: 60},
-        width = 1200 - margin.left - margin.right,
+        width = 1400 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
     var generate = 0;
@@ -104,7 +104,7 @@ window.onload = function () {
                 });
             dataset = data;
             generate = 1;
-            //Add the valueline path.
+
 
             update(error, filterData(data,'Total'));
 
@@ -160,10 +160,6 @@ window.onload = function () {
             .attr("dy", ".71em")
             .style("text-anchor", "end")
             .text("GDP Per Capita");
-
-
-
-
 
         svg.append("g")
             .attr("class", "x axis")
