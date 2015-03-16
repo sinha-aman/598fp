@@ -48,20 +48,21 @@ window.onload = function () {
         .orient("right")
         .ticks(10);
 
-    var svg = d3.select("body").append("svg")
+    var svg2 = d3.select("#chart1").append("svg")
         .attr("width", width + margin.right + margin.left)
         .attr("height", height + margin.top + margin.bottom)
+        .attr("id","bar")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    svg.call(tip);
+   svg2.call(tip);
 
     d3.csv("countriesRand.csv", update);
 
     function update(error, data) {
 
         var countryNames = d3.keys(data[0]).filter(function (key) {
-            return key !== "Year" && key!=="Population" && key!="gdp";
+            return key !== "Year" && key!=="Population" && key!="gdp" && key!="Label";
         });
 
         var filterData = function(inputData,countryName) {
@@ -129,14 +130,14 @@ window.onload = function () {
 
 
 
-        svg.append("g")
+        svg2.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
             .call(xAxis);
 
         //resetting the y axis
-        svg.select(".y.axis.left").remove();
-        svg.append("g")
+        svg2.select(".y.axis.left").remove();
+        svg2.append("g")
             .attr("class", "y axis left")
             .call(yAxisLeft)
             .append("text")
@@ -148,7 +149,7 @@ window.onload = function () {
 
         //resetting the y axis
         //svg.select(".y.axis.right").remove();
-        svg.append("g")
+        svg2.append("g")
             .attr("class", "y axis right")
             .attr("transform", "translate(" + width + " ,0)")
             .style("fill", color)
@@ -161,7 +162,7 @@ window.onload = function () {
             .style("text-anchor", "end")
             .text("GDP Per Capita");
 
-        svg.append("g")
+        svg2.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
             .call(xAxis)
@@ -172,7 +173,7 @@ window.onload = function () {
             .attr("margin-top","30");
 
 
-        var Year = svg.selectAll(".Year")
+        var Year = svg2.selectAll(".Year")
             .data(data)
             .enter().append("g")
             .attr("class", "g")
@@ -218,7 +219,7 @@ window.onload = function () {
                 return height - y(d.value);
             });
 
-        svg.append("path")
+        svg2.append("path")
             .attr("class", "line")
             .attr("d", valueLine(dataset))
             .on('mouseover', tip.show)
@@ -231,6 +232,7 @@ window.onload = function () {
                 var filtered = filterData(dataset, countryName);
                 d3.selectAll("#chartData").remove();
                 update(error, filtered);
+
             });
     }
 }

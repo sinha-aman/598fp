@@ -1,96 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <style>
-        .chart rect {
-        fill: steelblue;
-        stroke: white;
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
-        }
-
-        body {
-            font: 10px sans-serif;
-        }
-
-        .axis path,
-        .axis line {
-            fill: none;
-            stroke: #000;
-            stroke-width: 2;
-            shape-rendering: crispEdges;
-        }
-
-        .line {
-            stroke: red;
-            stroke-width: 2;
-            fill: none;
-            z-index: 9999;
-
-        }
-
-        .bar {
-            fill: steelblue;
-            z-index: -9999;
-        }
-
-        .legend:hover
-
-        {
-
-            opacity: 0.5;
-
-        }
-
-        .chartData:hover
-
-        {
-            opacity: 0.7;
-
-        }
-
-
-        .x.axis path {
-            display: none;
-        }
-
-        .d3-tip {
-            line-height: 1;
-            font-weight: bold;
-            padding: 12px;
-            background: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            border-radius: 2px;
-        }
-
-        /* Creates a small triangle extender for the tooltip */
-        .d3-tip:after {
-            box-sizing: border-box;
-            display: inline;
-            font-size: 10px;
-            width: 100%;
-            line-height: 1;
-            color: rgba(0, 0, 0, 0.8);
-            content: "\25BC";
-            position: absolute;
-            text-align: center;
-        }
-
-        /* Style northward tooltips differently */
-        .d3-tip.n:after {
-            margin: -1px 0 0 0;
-            top: 100%;
-            left: 0;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="bubble.css" />
+    <link rel="stylesheet" type="text/css" href="bar.css" />
 
     <meta charset="UTF-8">
-    <title></title>
+    <title>US Immigration Visualization</title>
 </head>
 <body>
+<h2>US Immigration by Countries</h2>
+<h3>expressed in Millions</h3>
+<p>
+    <label for="year">Year :</label>
+    <input type="text" id="year" style="border:0; color:#f6931f; font-weight:bold; " />
+</p>
+
+<div id="slider" style="width: 200px;"></div>
+<div id="graph"></div>
 <div id="div1"></div>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-<script type="text/javascript" src="a3.js"></script>
+<div id="chart1"></div>
+
+
+<script type="text/javascript" src="bubble.js"></script>
+<script type="text/javascript" src="bar.js"></script>
 
 </body>
 </html>
