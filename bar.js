@@ -4,7 +4,7 @@
 function bar () {
 
     var margin = {top: 75, right: 100, bottom: 30, left: 60},
-        width = 1000 - margin.left - margin.right,
+        width = 900 - margin.left - margin.right,
         height = 300 - margin.top - margin.bottom;
 
     var generate = 0;

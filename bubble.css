@@ -49,12 +49,14 @@ text{
 
 #map{
     padding: 10px;
+    width: 800px;
+    
 }
 
 #slider {
     display:inline-block;
-    width: 810px;
-    margin-left: 85px;
+    width: 740px;
+    margin-left: 40px;
 }
 
 #slider-label{

@@ -14,6 +14,7 @@ function map() {
         });
 
         $("#year").val($("#slider").slider("value"));
+        $("#policy-year").val($("#slider").slider("value"));
 
         var w = 1200;
         var h = 400;
@@ -29,7 +30,9 @@ function map() {
 
 
         var xy = d3.geo.equirectangular()
-            .scale(150);
+            .scale(140)
+            .rotate([-50,0]);
+
 
         var path = d3.geo.path()
             .projection(xy);
@@ -55,17 +58,19 @@ function map() {
                 .data(collection.features)
                 .enter().append("svg:path")
                 .attr("d", path)
-                .on("mouseover", function (d) {
+                /*.on("mouseover", function (d) {
                     d3.select(this).style("fill", "#6C0")
                         .append("svg:title")
                         .text(d.properties.name);
                 })
                 .on("mouseout", function (d) {
                     d3.select(this).style("fill", "#ccc");
-                })
+                })*/
         });
 
-        var scaleFactor = 1. / 15000.;
+        var scaleFactor = 1/20000;
+        var alpha = 1; //Weight Factor
+        var beta = 1000000; //Data will be brought near this value (Approximately the mid of the data range)
 
         d3.csv("countriesBubble.csv", function (csv) {
 
@@ -80,7 +85,10 @@ function map() {
                     return xy([+d["longitude"], +d["latitude"]])[1];
                 })
                 .attr("r", function (d) {
-                    return (+d["1950"]) * scaleFactor;
+                        //console.log(( 1-alpha )*( +d["1820"] ) + ( alpha * beta ) * scaleFactor);
+                        //return ( ( 1-alpha )*( +d["1820"] ) + ( alpha * beta ) * scaleFactor );
+                        return +d["1820"] * scaleFactor;
+
                 })
                 .attr("id", function (d) {
                     return d["country"];
@@ -118,7 +126,7 @@ function map() {
                 .transition()
                 .duration(1000).ease("linear")
                 .attr("r", function (d) {
-                    return (+d[year]) * scaleFactor;
+                     return +d[year] * scaleFactor;
                 })
                 .attr("title", function (d) {
                     return d["country"] + ": " + d[year];
