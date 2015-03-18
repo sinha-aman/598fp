@@ -37,20 +37,20 @@ function map() {
         var path = d3.geo.path()
             .projection(xy);
 
-        var svg1 = d3.select("#map").append("svg")
+        var svg = d3.select("#map").append("svg")
             .attr("width", w)
             .attr("height", h)
             .attr("id","bubble-svg");
 
-        svg1.call(tip);
+        svg.call(tip);
 
-        var states = svg1.append("svg:g")
+        var states = svg.append("svg:g")
             .attr("id", "states");
 
-        var circles = svg1.append("svg:g")
+        var circles = svg.append("svg:g")
             .attr("id", "circles");
 
-        var labels = svg1.append("svg:g")
+        var labels = svg.append("svg:g")
             .attr("id", "labels");
 
         d3.json("world-countries.json", function (collection) {

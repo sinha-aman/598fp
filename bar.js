@@ -9,12 +9,15 @@ function bar () {
 
     var generate = 0;
     var dataset = null;
+
+    // Create Tool Tip for Bar chart
     var tip = d3.tip()
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function (d) {
             return "<strong>Naturalized:</strong> <span style='color:white'>" + d.value + "</span> <br> <br>Category: " + d.name;
         })
+// Define Scales
 
     var x0 = d3.scale.ordinal()
         .rangeRoundBands([0, width], .1);
@@ -29,40 +32,47 @@ function bar () {
     var y1 = d3.scale.linear()
         .range([height, 0]);
 
+    //Define Colors
     var color = d3.scale.ordinal()
         .range(["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5","#8c564b","#c49c94","#e377c2","#f7b6d2","#7f7f7f","#c7c7c7","#bcbd22","#dbdb8d","#17becf","#9edae5"]
     );
 
-    var line = d3.svg.line();
+
+    // Define X Axis
 
     var xAxis = d3.svg.axis()
         .scale(x0)
         .orient("bottom");
+
+// Define Y axis left
 
     var yAxisLeft = d3.svg.axis()
         .scale(y)
         .orient("left")
         .tickFormat(d3.format(""));
 
+// Define Y axis right
     var	yAxisRight = d3.svg.axis()
         .scale(y1)
         .orient("right")
-        .ticks(10);
+        .tickFormat(d3.format(""));
 
-    // Define 'div' for tooltips
+// Define 'div' for tooltips
     var div = d3.select("body")
         .append("div")  // declare the tooltip div
         .attr("class", "tooltip")              // apply the 'tooltip' class
         .style("opacity", 0);
 
-    var svg2 = d3.select("#bar").append("svg")
+    // Define svg
+
+    var svg = d3.select("#bar").append("svg")
         .attr("width", width + margin.right + margin.left)
         .attr("height", height + margin.top + margin.bottom)
         .attr("id","bar-svg")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-   svg2.call(tip);
+   svg.call(tip);
 
     d3.csv("countriesRand.csv", update);
 
@@ -140,14 +150,14 @@ function bar () {
 
 
 
-        svg2.append("g")
+        svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
             .call(xAxis);
 
         //resetting the y axis
-        svg2.select(".y.axis.left").remove();
-        svg2.append("g")
+        svg.select(".y.axis.left").remove();
+        svg.append("g")
             .attr("class", "y axis left")
             .call(yAxisLeft)
             .append("text")
@@ -159,7 +169,7 @@ function bar () {
 
         //resetting the y axis
         //svg.select(".y.axis.right").remove();
-        svg2.append("g")
+        svg.append("g")
             .attr("class", "y axis right")
             .attr("transform", "translate(" + width + " ,0)")
             .style("fill", color)
@@ -172,7 +182,7 @@ function bar () {
             .style("text-anchor", "end")
             .text("GDP Per Capita");
 
-        svg2.append("g")
+        svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
             .call(xAxis)
@@ -183,7 +193,7 @@ function bar () {
             .attr("margin-top","30");
 
 
-        var Year = svg2.selectAll(".Year")
+        var Year = svg.selectAll(".Year")
             .data(data)
             .enter().append("g")
             .attr("class", "g")
@@ -220,13 +230,13 @@ function bar () {
         chartData.on('mouseover', tip.show)
             .on('mouseout', tip.hide);
 
-        svg2.append("path")
+        svg.append("path")
             .attr("class", "line")
             .attr("d", valueLine(dataset))
 
 
 //
-        svg2.selectAll("dot")
+        svg.selectAll("dot")
             .data(data)
             .enter().append("circle")
             .attr("r", 5)
