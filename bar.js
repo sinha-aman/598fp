@@ -76,11 +76,10 @@ function bar () {
 
     d3.csv("countriesRand.csv", update);
 
-
     function update(error, data) {
 
         var countryNames = d3.keys(data[0]).filter(function (key) {
-            return key !== "Year" && key!=="Population" && key!="gdp" && key!="Label";
+            return key !== "Year" && key!=="Population" && key!="gdp" && key!="Label" && key!="Policy";
         });
 
         var filterData = function(inputData,countryName) {
@@ -133,6 +132,10 @@ function bar () {
 
         x0.domain(data.map(function (d) {
             return d.Year;
+        }));
+
+        x2.domain(data.map(function (d) {
+            return d.Label;
         }));
 
         x1.domain(countryNames).rangeRoundBands([0, x0.rangeBand()]);

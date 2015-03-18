@@ -8,13 +8,16 @@ function map() {
             max: 2000,
             step: 10,
             slide: function (event, ui) {
-                $("#year").val(ui.value);
+                var year = $("#year").val(ui.value);
+                divblock(year[0].value);
                 redraw(ui.value.toString());
             }
         });
 
         $("#year").val($("#slider").slider("value"));
-        $("#policy-year").val($("#slider").slider("value"));
+        //$("#policy-year").val($("#slider").slider("value"));
+        divblock('1820');
+
 
         var w = 1200;
         var h = 400;
@@ -31,7 +34,7 @@ function map() {
 
         var xy = d3.geo.equirectangular()
             .scale(140)
-            .rotate([-50,0]);
+            .rotate([-10,0]);
 
 
         var path = d3.geo.path()
