@@ -33,6 +33,7 @@ function bar () {
         .range(["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5","#8c564b","#c49c94","#e377c2","#f7b6d2","#7f7f7f","#c7c7c7","#bcbd22","#dbdb8d","#17becf","#9edae5"]
     );
 
+    var line = d3.svg.line();
 
     var xAxis = d3.svg.axis()
         .scale(x0)
@@ -48,6 +49,12 @@ function bar () {
         .orient("right")
         .ticks(10);
 
+    // Define 'div' for tooltips
+    var div = d3.select("body")
+        .append("div")  // declare the tooltip div
+        .attr("class", "tooltip")              // apply the 'tooltip' class
+        .style("opacity", 0);
+
     var svg2 = d3.select("#bar").append("svg")
         .attr("width", width + margin.right + margin.left)
         .attr("height", height + margin.top + margin.bottom)
@@ -58,6 +65,7 @@ function bar () {
    svg2.call(tip);
 
     d3.csv("countriesRand.csv", update);
+
 
     function update(error, data) {
 
@@ -79,7 +87,7 @@ function bar () {
 
         // Define the GDP line
         var	valueLine = d3.svg.line()
-            .x(function(d) { return x(d.Year) })
+            .x(function(d) { return x0(d.Year)+17 })
             .y(function(d) { return y1(d.gdp) });
 
         data.forEach(function (d) {
@@ -89,7 +97,6 @@ function bar () {
             });
             d.gdp = +d.gdp;
         });
-
 
         if (generate === 0) {
             d3.select('#div1')
@@ -170,7 +177,7 @@ function bar () {
             .attr("transform", "translate(0," + height + ")")
             .call(xAxis)
             .selectAll("text")
-            .attr("transform", function(d) {
+            .attr("transform", function() {
                 return "rotate(0)"
             })
             .attr("margin-top","30");
@@ -187,46 +194,62 @@ function bar () {
         var chartData = Year.selectAll("rect")
             .data(function (d) {
                 return d.country;
-            });
-
+            })
+            ;
         chartData
             .enter().append("rect")
             .attr("width", x1.rangeBand())
             .attr("class", "chartData")
             .attr("id", "chartData")
-            .attr("x", function (d) {
-                return x1(d.name);
-            })
-            .attr("y", function (d) {
+            .attr("y", height )
+            .attr("height", 0)
+
+        chartData.transition()
+            .delay(function (d,i){return i*10;})
+            .duration(1500)
+            .attr("y",function (d) {
                 return y(d.value);
             })
-            .attr("height", function (d) {
+            .attr("height",function (d) {
                 return height - y(d.value);
             })
             .style("fill", function (d) {
                 return color(d.name);
             })
-            .on('mouseover', tip.show)
+
+        chartData.on('mouseover', tip.show)
             .on('mouseout', tip.hide);
-
-
-        chartData.transition()
-            .duration(750)
-            .delay(function (d, i) {
-                return i * 10;
-            })
-            .attr("y", function (d) {
-                return y(d.value);
-            })
-            .attr("height", function (d) {
-                return height - y(d.value);
-            });
 
         svg2.append("path")
             .attr("class", "line")
             .attr("d", valueLine(dataset))
-            .on('mouseover', tip.show)
-            .on('mouseout', tip.hide);
+
+
+//
+        svg2.selectAll("dot")
+            .data(data)
+            .enter().append("circle")
+            .attr("r", 5)
+            .attr("cx", function(d) { return x0(d.Year)+17; })
+            .attr("cy", function(d) { return y1(d.gdp); })
+
+            .on("mouseover", function(d) {
+                div.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+                div.transition()
+                    .duration(200)
+                    .style("opacity", .9);
+                div	.html(
+                    '<a href= "http://google.com">' + // The first <a> tag
+                    d.gdp +
+                    "</a>" +                          // closing </a> tag
+                    "<br/>"  + d.Year)
+                    .style("left", (d3.event.pageX) + "px")
+                    .style("top", (d3.event.pageY - 28) + "px");
+            });
+
+//
 
 
         d3.select('select')
@@ -248,9 +271,11 @@ function bar () {
                     $("circle").css("stroke","white");
                  }
 
-                d3.selectAll("#chartData").remove();
+                d3.selectAll(".chartData").remove();
                 update(error, filtered);
 
             });
     }
+
+
 }
