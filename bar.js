@@ -9,6 +9,7 @@ function bar () {
 
     var generate = 0;
     var dataset = null;
+    var xAngle = -25;
 
     // Create Tool Tip for Bar chart
     var tip = d3.tip()
@@ -20,6 +21,9 @@ function bar () {
 // Define Scales
 
     var x0 = d3.scale.ordinal()
+        .rangeRoundBands([0, width], .1);
+
+    var x2 = d3.scale.ordinal()
         .rangeRoundBands([0, width], .1);
 
     var x1 = d3.scale.ordinal();
@@ -41,8 +45,9 @@ function bar () {
     // Define X Axis
 
     var xAxis = d3.svg.axis()
-        .scale(x0)
+        .scale(x2)
         .orient("bottom");
+
 
 // Define Y axis left
 
@@ -150,13 +155,17 @@ function bar () {
 
         y1.domain([0, d3.max(data, function (d) { return d.gdp; }) ]);
 
-
-
-
         svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
-            .call(xAxis);
+            .call(xAxis)
+            .selectAll("text")
+            .attr("transform", function() {
+                return "rotate("+xAngle+")"
+            })
+            .attr("margin-top","150")
+            .attr("y", 15);
+
 
         //resetting the y axis
         svg.select(".y.axis.left").remove();
@@ -191,9 +200,10 @@ function bar () {
             .call(xAxis)
             .selectAll("text")
             .attr("transform", function() {
-                return "rotate(0)"
+                return "rotate("+xAngle+")"
             })
-            .attr("margin-top","30");
+            .attr("margin-top","150")
+            .attr("y", 15);
 
 
         var Year = svg.selectAll(".Year")
