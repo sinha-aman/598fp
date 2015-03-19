@@ -142,6 +142,7 @@ body {
     background-color: black;
     display: inline-block;
     margin-right: 10px;
+    margin-top: -10px;
     color: white;
 
     font-size: 20px;
