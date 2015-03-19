@@ -205,6 +205,14 @@ function bar () {
             .attr("margin-top","150")
             .attr("y", 15);
 
+        svg.append("text")
+            .attr("x", (width / 2))
+            .attr("y", 0 - (margin.top / 2))
+            .attr("text-anchor", "middle")
+            .style("font-size", "12px")
+            .style("text-decoration", "none")
+            .text("Immigration Stats");
+
 
         var Year = svg.selectAll(".Year")
             .data(data)
@@ -252,22 +260,32 @@ function bar () {
         svg.selectAll("dot")
             .data(data)
             .enter().append("circle")
-            .attr("r", 5)
+            .attr("r", 7)
             .attr("cx", function(d) { return x0(d.Year)+17; })
             .attr("cy", function(d) { return y1(d.gdp); })
-
+            .attr("fill","red")
             .on("mouseover", function(d) {
                 div.transition()
                     .duration(500)
                     .style("opacity", 0);
                 div.transition()
                     .duration(200)
+                    .style("opacity", .9)
+                    .style("fill","red");
+                div.html("GDP:"+ d.gdp)
+                    .style("left", (d3.event.pageX- 30) + "px")
+                    .style("top", (d3.event.pageY - 40) + "px")
+                    .style("font-weight","bold");
+            })
+
+            .on("mouseout", function(d) {
+                div.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+                div.transition()
+                    .duration(200)
                     .style("opacity", .9);
-                div	.html(
-                    '<a href= "http://google.com">' + // The first <a> tag
-                    d.gdp +
-                    "</a>" +                          // closing </a> tag
-                    "<br/>"  + d.Year)
+                div.html("")
                     .style("left", (d3.event.pageX) + "px")
                     .style("top", (d3.event.pageY - 28) + "px");
             });
@@ -279,7 +297,7 @@ function bar () {
             .on("change", function () {
                 var countryName = this.options[this.selectedIndex].__data__;
                 var filtered = filterData(dataset, countryName);
-                console.log(countryName);
+                //console.log(countryName);
                 if (countryName !== "Total"){
                     $("circle").css("opacity","0");
                     $("#"+countryName).css("opacity","1");

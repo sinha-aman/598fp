@@ -25,7 +25,7 @@ function map() {
             .attr('class', 'd3-tip')
             .offset([-10, 0])
             .html(function (d) {
-                console.log($("#year")[0].value);
+                //console.log($("#year")[0].value);
                 var q = $("#year")[0].value;
                 return "<strong>Naturalized:</strong> <span style='color:white'>" + d[q] + "</span> <br> <br>Category: " + d["country"];
 
@@ -46,6 +46,7 @@ function map() {
             .attr("id","bubble-svg");
 
         svg.call(tip);
+
 
         var states = svg.append("svg:g")
             .attr("id", "states");
@@ -108,6 +109,15 @@ function map() {
                     d3.select(this).style("fill", "steelblue");
                     tip.hide(d);
                 })
+
+
+            svg.append("text")
+                .attr("x", (width / 2))
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")
+                .style("font-size", "16px")
+                .style("text-decoration", "underline")
+                .text("Value vs Date Graph");
 
 
             labels.selectAll("labels")
