@@ -1,235 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc9b2381-3dc2-45f3-a57e-31b4bab39a04" name="Default" comment="All Working">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Maddison_NorthAmerica_Full.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workbook2.tsv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/countriesRandbkp.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/extensions" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/extensions/exporter/test.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/Gruntfile.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/USA_GDP.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/api.axis-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.category.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/api.data-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.flow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/api.focus-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.focus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/api.grid-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.group.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.legend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/api.load-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.region.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.show.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.x.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/api.zoom-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/api.zoom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_axis_label.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_axis_range.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_data_colors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_flow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_flow_timeseries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_legend.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_tooltip_show.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_transform.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_xgrid_lines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_ygrid_lines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/arc-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/arc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/arc.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/area.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/area_zerobased.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_padding.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_range.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_extent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_localtime.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_range_timeseries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_tick_culling.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_tick_fit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_tick_rotate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_tick_values.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_y2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_y_default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/axis-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/axis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/bar_zerobased.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/bindto.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/brush.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/c3-helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/c3-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/c3.axis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/c3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/css/c3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/c3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/c3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/c3.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/c3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/c3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test.tsv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test2_ts.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test3.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test_2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test_3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test_ts.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/extensions/js/c3ext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/categorized.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/category.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/chart.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area_spline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area_spline_stacked.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area_stacked.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area_step.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area_step_stacked.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_bar_stacked.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_combination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_donut.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_gauge.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_pie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_pie_sort.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_scatter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_spline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_step.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_step_category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/class-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/clip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collage.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/extensions/exporter/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/core-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/custom_x_categorized.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/custom_x_scale.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/custom_xs_scale.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/data-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/data.convert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/data.load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_columned.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_hide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_json.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_label.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_label_format.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_load.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_load_timeseries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_region.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_region_timeseries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_rowed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_url.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/domain-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/domain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/domain_y.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/drag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/element.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/emptydata.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/focus.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/format.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gdp.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/grid-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/grid_focus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/grid_x_lines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/grid_x_lines_timeseries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/grids.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/grids_timeseries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/head.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/interaction-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/interaction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/interaction_enabled.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/legend-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/legend.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/legend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/legend.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/line.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/padding.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/padding_update.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/extensions/exporter/phantom-exporter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/plugin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/samples/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/point.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/point_r.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/polyfill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/population.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/region.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/region.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/regions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/regions_timeseries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/requirejs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/samples/requirejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/select_drag.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/selection.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/shape.bar-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/shape.bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/shape.line-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/shape.line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/size.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/subchart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/subchart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/subchart_onbrush.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/tail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/timeseries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/timeseries_date.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/timeseries_descendent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/timeseries_raw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/tooltip-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/scss/tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/tooltip_grouped.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/tooltip_show.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/type-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/ua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/spec/zoom-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/zoom.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/src/zoom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/zoom_category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/zoom_onzoom.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/zoom_reduction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/samples/zoom_reduction.js" />
+    <list default="true" id="cc9b2381-3dc2-45f3-a57e-31b4bab39a04" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Maddison_NorthAmerica_Full.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/USA_GDP.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Workbook2.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/Gruntfile.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/c3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/c3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/c3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/c3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/extensions/exporter/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/extensions/exporter/phantom-exporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/extensions/exporter/test.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/extensions/js/c3ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/css/c3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test2_ts.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test_2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test_3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/data/c3_test_ts.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/c3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/c3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/extensions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/samples/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/samples/requirejs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/js/samples/zoom_reduction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_axis_label.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_axis_range.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_category.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_data_colors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_flow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_flow_timeseries.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_legend.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_tooltip_show.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_transform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_xgrid_lines.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/api_ygrid_lines.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/area_zerobased.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_padding.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_range.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_extent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_localtime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_range_timeseries.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_tick_culling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_tick_fit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_tick_rotate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_x_tick_values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_y2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/axes_y_default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/bar_zerobased.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/bindto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/categorized.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area_spline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area_spline_stacked.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area_stacked.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area_step.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_area_step_stacked.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_bar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_bar_stacked.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_combination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_donut.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_gauge.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_pie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_pie_sort.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_scatter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_spline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_step.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/chart_step_category.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/custom_x_categorized.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/custom_x_scale.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/custom_xs_scale.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_columned.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_hide.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_json.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_label.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_label_format.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_load.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_load_timeseries.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_region.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_region_timeseries.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_rowed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/data_url.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/domain_y.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/element.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/emptydata.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/grid_focus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/grid_x_lines.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/grid_x_lines_timeseries.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/grids.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/grids_timeseries.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/interaction_enabled.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/legend.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/padding.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/padding_update.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/plugin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/point_r.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/regions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/regions_timeseries.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/requirejs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/selection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/subchart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/subchart_onbrush.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/timeseries.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/timeseries_date.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/timeseries_descendent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/timeseries_raw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/tooltip_grouped.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/tooltip_show.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/zoom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/zoom_category.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/zoom_onzoom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/htdocs/samples/zoom_reduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/api.axis-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/api.data-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/api.focus-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/api.grid-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/api.load-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/api.zoom-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/arc-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/axis-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/c3-helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/c3-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/class-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/core-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/data-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/domain-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/grid-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/interaction-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/legend-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/shape.bar-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/shape.line-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/tooltip-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/type-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/spec/zoom-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.axis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.category.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.color.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.focus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.group.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.legend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.region.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.show.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/api.zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/arc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/axis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/c3.axis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/category.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/clip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/color.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/data.convert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/data.load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/domain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/drag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/format.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/head.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/interaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/legend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/region.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/arc.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/area.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/axis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/brush.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/chart.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/focus.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/legend.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/line.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/point.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/region.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/select_drag.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/scss/tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/shape.bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/shape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/shape.line.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/size.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/subchart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/tail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/ua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3-0.4.10/src/zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/c3js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/collage.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/countriesBubbleLog.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dough.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gdp.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/population.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/table1.xls" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bar.css" afterPath="$PROJECT_DIR$/bar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bar.js" afterPath="$PROJECT_DIR$/bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bubble.js" afterPath="$PROJECT_DIR$/bubble.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policy.js" afterPath="$PROJECT_DIR$/policy.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fp.iws" />
@@ -254,25 +263,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bar.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48387095" vertical-offset="2805" max-vertical-offset="4905">
-              <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
+            <state vertical-scroll-proportion="-2.7777777" vertical-offset="0" max-vertical-offset="5010">
+              <caret line="5" column="61" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="61" />
               <folding>
-                <marker date="1426732525000" expanded="true" signature="501:512" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bubble.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bubble.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="2340">
-              <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
-              <folding>
-                <marker date="1426732300000" expanded="true" signature="865:876" placeholder="..." />
+                <marker date="1426761326000" expanded="true" signature="500:511" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -281,10 +278,22 @@
       <file leaf-file-name="policy.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/policy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="435">
-              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bubble.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bubble.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2385">
+              <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+              <folding>
+                <marker date="1426762059000" expanded="true" signature="1034:1045" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -293,18 +302,18 @@
       <file leaf-file-name="bar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1178" max-vertical-offset="1980">
-              <caret line="124" column="11" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2100">
+              <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="1395">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3653846" vertical-offset="600" max-vertical-offset="1470">
+              <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -347,11 +356,11 @@
         <option value="$PROJECT_DIR$/c3-0.4.9/c3.min.js" />
         <option value="$PROJECT_DIR$/dough.css" />
         <option value="$PROJECT_DIR$/dough.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/bar.js" />
         <option value="$PROJECT_DIR$/policy.js" />
         <option value="$PROJECT_DIR$/bar.css" />
         <option value="$PROJECT_DIR$/bubble.js" />
-        <option value="$PROJECT_DIR$/bar.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -359,10 +368,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -437,7 +444,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -471,14 +478,10 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -486,6 +489,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -579,32 +586,38 @@
       <option name="project" value="LOCAL" />
       <updated>1426745922363</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="All Working">
+      <created>1426746691872</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1426746691872</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38341346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.117430225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15715292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26976284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -623,9 +636,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1761804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -662,7 +675,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4905">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1426732525000" expanded="true" signature="501:512" placeholder="..." />
+            <marker date="1426761326000" expanded="true" signature="500:511" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -672,7 +685,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="2340">
           <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
           <folding>
-            <marker date="1426732300000" expanded="true" signature="865:876" placeholder="..." />
+            <marker date="1426762059000" expanded="true" signature="1034:1045" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -717,7 +730,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4905">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1426732525000" expanded="true" signature="501:512" placeholder="..." />
+            <marker date="1426761326000" expanded="true" signature="500:511" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -727,7 +740,62 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="2340">
           <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
           <folding>
-            <marker date="1426732300000" expanded="true" signature="865:876" placeholder="..." />
+            <marker date="1426762059000" expanded="true" signature="1034:1045" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="435">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1178" max-vertical-offset="1980">
+          <caret line="124" column="11" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="1395">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4905">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1426761326000" expanded="true" signature="500:511" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bubble.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="2340">
+          <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
+          <folding>
+            <marker date="1426762059000" expanded="true" signature="1034:1045" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -796,7 +864,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2870" max-vertical-offset="3915">
           <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
-            <marker date="1426732525000" expanded="true" signature="501:512" placeholder="..." />
+            <marker date="1426761326000" expanded="true" signature="500:511" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -806,7 +874,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="215" max-vertical-offset="2025">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
           <folding>
-            <marker date="1426732300000" expanded="true" signature="865:876" placeholder="..." />
+            <marker date="1426762059000" expanded="true" signature="1034:1045" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -854,7 +922,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2870" max-vertical-offset="3645">
           <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
-            <marker date="1426732525000" expanded="true" signature="501:512" placeholder="..." />
+            <marker date="1426761326000" expanded="true" signature="500:511" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -864,7 +932,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="2175">
           <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding>
-            <marker date="1426732300000" expanded="true" signature="865:876" placeholder="..." />
+            <marker date="1426762059000" expanded="true" signature="1034:1045" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -905,7 +973,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1695" max-vertical-offset="3675">
           <caret line="56" column="18" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="18" />
           <folding>
-            <marker date="1426732525000" expanded="true" signature="501:512" placeholder="..." />
+            <marker date="1426761326000" expanded="true" signature="500:511" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -931,31 +999,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c3js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54239404" vertical-offset="0" max-vertical-offset="802">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2506427" vertical-offset="0" max-vertical-offset="778">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/countriesBubble.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dough.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -966,34 +1013,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/population.csv">
+    <entry file="file://$PROJECT_DIR$/bar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3000">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2100">
+          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dough.js">
+    <entry file="file://$PROJECT_DIR$/bar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.814815" vertical-offset="4565" max-vertical-offset="5550">
-          <caret line="331" column="15" selection-start-line="331" selection-start-column="15" selection-end-line="331" selection-end-column="15" />
+        <state vertical-scroll-proportion="-2.7777777" vertical-offset="0" max-vertical-offset="5010">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="61" />
+          <folding>
+            <marker date="1426761326000" expanded="true" signature="500:511" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/policy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bubble.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2385">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+          <folding>
+            <marker date="1426762059000" expanded="true" signature="1034:1045" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="1395">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3653846" vertical-offset="600" max-vertical-offset="1455">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1003,34 +1064,6 @@
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1178" max-vertical-offset="1980">
-          <caret line="124" column="11" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bubble.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="2340">
-          <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
-          <folding>
-            <marker date="1426732300000" expanded="true" signature="865:876" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48387095" vertical-offset="2805" max-vertical-offset="4905">
-          <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
-          <folding>
-            <marker date="1426732525000" expanded="true" signature="501:512" placeholder="..." />
           </folding>
         </state>
       </provider>

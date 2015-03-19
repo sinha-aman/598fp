@@ -10,9 +10,9 @@ var divblock = function(y) {
         data.forEach(function (d) {
                 var policy_string = d.Policy.split("/");
                 if (y === d.Year) {
-                    $("#gdp-year").val("GDP : "+ d.gdp);
+                    $("#gdp-year").val("GDP per capita: "+ d.gdp+" in GK$");
                     $("#pop-year").val("US Population : "+ d.Population);
-                    $("#tot-year").val("Immigrants : "+ d.Total);
+                    $("#tot-year").val("Total Immigrants : "+ d.Total);
                     $("#policy-section").html("");
                     for (each in policy_string) {
                        $("#policy-section").append("<section>"+ policy_string[each] + "<section><hr/>");

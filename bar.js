@@ -16,7 +16,7 @@ function bar () {
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function (d) {
-            return "<strong>Naturalized:</strong> <span style='color:white'>" + d.value + "</span> <br> <br>Category: " + d.name;
+            return "<strong>Immigrants:</strong> <span style='color:white'>" + d.value + "</span> <br> <br>Country: " + d.name;
         })
 // Define Scales
 
@@ -229,15 +229,16 @@ function bar () {
             ;
         chartData
             .enter().append("rect")
-            .attr("width", x1.rangeBand())
-            .attr("class", "chartData")
-            .attr("id", "chartData")
+
+            .attr("class", "bar")
+            .attr("id", "bar")
             .attr("y", height )
             .attr("height", 0)
 
         chartData.transition()
             .delay(function (d,i){return i*10;})
             .duration(1500)
+            .attr("width", x1.rangeBand())
             .attr("y",function (d) {
                 return y(d.value);
             })
@@ -254,6 +255,7 @@ function bar () {
         svg.append("path")
             .attr("class", "line")
             .attr("d", valueLine(dataset))
+
 
 
 //
@@ -312,7 +314,12 @@ function bar () {
                     $("circle").css("stroke","white");
                  }
 
-                d3.selectAll(".chartData").remove();
+                d3.selectAll(".bar")
+                    .transition()
+                    .duration(1500)
+                    .attr("y", height )
+                    .attr("height", 0)
+                    .remove();
                 update(error, filtered);
 
             });
