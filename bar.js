@@ -1,22 +1,29 @@
 /**
  * Created by Aman on 2/9/15.
  */
-window.onload = function () {
+function bar () {
 
     var margin = {top: 75, right: 100, bottom: 30, left: 60},
-        width = 1200 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        width = 900 - margin.left - margin.right,
+        height = 300 - margin.top - margin.bottom;
 
     var generate = 0;
     var dataset = null;
+    var xAngle = -25;
+
+    // Create Tool Tip for Bar chart
     var tip = d3.tip()
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function (d) {
-            return "<strong>Naturalized:</strong> <span style='color:white'>" + d.value + "</span> <br> <br>Category: " + d.name;
+            return "<strong>Immigrants:</strong> <span style='color:white'>" + d.value + "</span> <br> <br>Country: " + d.name;
         })
+// Define Scales
 
     var x0 = d3.scale.ordinal()
+        .rangeRoundBands([0, width], .1);
+
+    var x2 = d3.scale.ordinal()
         .rangeRoundBands([0, width], .1);
 
     var x1 = d3.scale.ordinal();
@@ -29,39 +36,55 @@ window.onload = function () {
     var y1 = d3.scale.linear()
         .range([height, 0]);
 
+    //Define Colors
     var color = d3.scale.ordinal()
         .range(["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5","#8c564b","#c49c94","#e377c2","#f7b6d2","#7f7f7f","#c7c7c7","#bcbd22","#dbdb8d","#17becf","#9edae5"]
     );
 
 
+    // Define X Axis
+
     var xAxis = d3.svg.axis()
-        .scale(x0)
+        .scale(x2)
         .orient("bottom");
+
+
+// Define Y axis left
 
     var yAxisLeft = d3.svg.axis()
         .scale(y)
         .orient("left")
         .tickFormat(d3.format(""));
 
+// Define Y axis right
     var	yAxisRight = d3.svg.axis()
         .scale(y1)
         .orient("right")
-        .ticks(10);
+        .tickFormat(d3.format(""));
 
-    var svg = d3.select("body").append("svg")
+// Define 'div' for tooltips
+    var div = d3.select("body")
+        .append("div")  // declare the tooltip div
+        .attr("class", "tooltip")              // apply the 'tooltip' class
+        .style("opacity", 0);
+
+    // Define svg
+
+    var svg = d3.select("#bar").append("svg")
         .attr("width", width + margin.right + margin.left)
         .attr("height", height + margin.top + margin.bottom)
+        .attr("id","bar-svg")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    svg.call(tip);
+   svg.call(tip);
 
     d3.csv("countriesRand.csv", update);
 
     function update(error, data) {
 
         var countryNames = d3.keys(data[0]).filter(function (key) {
-            return key !== "Year" && key!=="Population" && key!="gdp";
+            return key !== "Year" && key!=="Population" && key!="gdp" && key!="Label" && key!="Policy";
         });
 
         var filterData = function(inputData,countryName) {
@@ -76,9 +99,9 @@ window.onload = function () {
             });
         };
 
-        // Define the line
+        // Define the GDP line
         var	valueLine = d3.svg.line()
-            .x(function(d) { return x(d.Year) })
+            .x(function(d) { return x0(d.Year)+17 })
             .y(function(d) { return y1(d.gdp) });
 
         data.forEach(function (d) {
@@ -91,6 +114,8 @@ window.onload = function () {
 
         if (generate === 0) {
             d3.select('#div1')
+                .attr("background-color","black")
+                .attr("font-color","white")
                 .append("select")
                 .selectAll("option")
                 .data(countryNames)
@@ -104,7 +129,7 @@ window.onload = function () {
                 });
             dataset = data;
             generate = 1;
-            //Add the valueline path.
+
 
             update(error, filterData(data,'Total'));
 
@@ -112,6 +137,10 @@ window.onload = function () {
 
         x0.domain(data.map(function (d) {
             return d.Year;
+        }));
+
+        x2.domain(data.map(function (d) {
+            return d.Label;
         }));
 
         x1.domain(countryNames).rangeRoundBands([0, x0.rangeBand()]);
@@ -126,13 +155,17 @@ window.onload = function () {
 
         y1.domain([0, d3.max(data, function (d) { return d.gdp; }) ]);
 
-
-
-
         svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
-            .call(xAxis);
+            .call(xAxis)
+            .selectAll("text")
+            .attr("transform", function() {
+                return "rotate("+xAngle+")"
+            })
+            .attr("margin-top","150")
+            .attr("y", 15);
+
 
         //resetting the y axis
         svg.select(".y.axis.left").remove();
@@ -161,19 +194,24 @@ window.onload = function () {
             .style("text-anchor", "end")
             .text("GDP Per Capita");
 
-
-
-
-
         svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
             .call(xAxis)
             .selectAll("text")
-            .attr("transform", function(d) {
-                return "rotate(0)"
+            .attr("transform", function() {
+                return "rotate("+xAngle+")"
             })
-            .attr("margin-top","30");
+            .attr("margin-top","150")
+            .attr("y", 15);
+
+        svg.append("text")
+            .attr("x", (width / 2))
+            .attr("y", 0 - (margin.top / 2))
+            .attr("text-anchor", "middle")
+            .style("font-size", "12px")
+            .style("text-decoration", "none")
+            .text("Immigration Stats");
 
 
         var Year = svg.selectAll(".Year")
@@ -187,54 +225,105 @@ window.onload = function () {
         var chartData = Year.selectAll("rect")
             .data(function (d) {
                 return d.country;
-            });
-
+            })
+            ;
         chartData
             .enter().append("rect")
+
+            .attr("class", "bar")
+            .attr("id", "bar")
+            .attr("y", height )
+            .attr("height", 0)
+
+        chartData.transition()
+            .delay(function (d,i){return i*10;})
+            .duration(1500)
             .attr("width", x1.rangeBand())
-            .attr("class", "chartData")
-            .attr("id", "chartData")
-            .attr("x", function (d) {
-                return x1(d.name);
-            })
-            .attr("y", function (d) {
+            .attr("y",function (d) {
                 return y(d.value);
             })
-            .attr("height", function (d) {
+            .attr("height",function (d) {
                 return height - y(d.value);
             })
             .style("fill", function (d) {
                 return color(d.name);
             })
-            .on('mouseover', tip.show)
+
+        chartData.on('mouseover', tip.show)
             .on('mouseout', tip.hide);
-
-
-        chartData.transition()
-            .duration(750)
-            .delay(function (d, i) {
-                return i * 10;
-            })
-            .attr("y", function (d) {
-                return y(d.value);
-            })
-            .attr("height", function (d) {
-                return height - y(d.value);
-            });
 
         svg.append("path")
             .attr("class", "line")
             .attr("d", valueLine(dataset))
-            .on('mouseover', tip.show)
-            .on('mouseout', tip.hide);
+
+
+
+//
+        svg.selectAll("dot")
+            .data(data)
+            .enter().append("circle")
+            .attr("r", 7)
+            .attr("cx", function(d) { return x0(d.Year)+17; })
+            .attr("cy", function(d) { return y1(d.gdp); })
+            .attr("fill","red")
+            .on("mouseover", function(d) {
+                div.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+                div.transition()
+                    .duration(200)
+                    .style("opacity", .9)
+                    .style("fill","red");
+                div.html("GDP:"+ d.gdp)
+                    .style("left", (d3.event.pageX- 30) + "px")
+                    .style("top", (d3.event.pageY - 40) + "px")
+                    .style("font-weight","bold");
+            })
+
+            .on("mouseout", function(d) {
+                div.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+                div.transition()
+                    .duration(200)
+                    .style("opacity", .9);
+                div.html("")
+                    .style("left", (d3.event.pageX) + "px")
+                    .style("top", (d3.event.pageY - 28) + "px");
+            });
+
+//
 
 
         d3.select('select')
             .on("change", function () {
                 var countryName = this.options[this.selectedIndex].__data__;
                 var filtered = filterData(dataset, countryName);
-                d3.selectAll("#chartData").remove();
+                //console.log(countryName);
+                if (countryName !== "Total"){
+                    $("circle").css("opacity","0");
+                    $("#"+countryName).css("opacity","1");
+                    $("#"+countryName).css("fill","red");
+                    $("#"+countryName).css("stroke","red");
+
+
+                }
+                else{
+                    $("circle").css("opacity","0.7");
+                    $("circle").css("color","steelblue");
+                    $("circle").css("stroke","white");
+                 }
+
+                d3.selectAll(".bar")
+                    .transition()
+                    .duration(1500)
+                    .attr("y", height )
+                    .attr("height", 0)
+                    .remove();
                 update(error, filtered);
+
             });
     }
+
+
 }
