@@ -10,7 +10,7 @@ var divblock = function(y) {
         data.forEach(function (d) {
                 var policy_string = d.Policy.split("/");
                 if (y === d.Year) {
-                    $("#gdp-year").val("GDP per capita: "+ d.gdp+" in GK$");
+                    $("#gdp-year").val("GDP per capita: "+ d.gdp+" (1990 Int. GK$) ");
                     $("#pop-year").val("US Population : "+ d.Population);
                     $("#tot-year").val("Total Immigrants : "+ d.Total);
                     $("#policy-section").html("");
