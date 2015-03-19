@@ -1,0 +1,135 @@
+body {
+    /*font-family: 'Julius Sans One', sans-serif;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    position: relative;
+    font-weight: 300;
+}
+
+.chart rect {
+    fill: steelblue;
+    stroke: white;
+}
+
+#project-title{
+    font-family: 'Julius Sans One', sans-serif;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2;
+    shape-rendering: crispEdges;
+}
+
+.line {
+    stroke: red;
+    stroke-width: 2;
+    fill: none;
+    z-index: 9999;
+
+}
+
+.bar {
+    fill: steelblue;
+    z-index: -9999;
+}
+
+.legend:hover
+
+{
+
+    opacity: 0.5;
+
+}
+
+.chartData:hover
+
+{
+    opacity: 0.7;
+
+}
+
+
+.x.axis path {
+    display: none;
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+#bar {
+    padding: 10px;
+    width: 800px;
+}
+
+#div1 {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#policy {
+    display: inline-block;
+    width: 350px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+#policy-title-text {
+    font-size: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#policy-section {
+    background-color: white;
+    height: 350px;
+    padding: 15px;
+    color: black;
+    overflow: auto;
+}
+
+#policy-year {
+    font-size: 50px;
+    width: 300px;
+}
+
+#pop-year {
+    width: 310px;
+}
+
+#tot-year {
+    width: 320px;
+}
+
+#gdp-year {
+    width: 320px;
+}
