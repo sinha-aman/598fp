@@ -53,6 +53,7 @@ text{
     
 }
 
+
 #slider {
     display:inline-block;
     width: 740px;
@@ -60,6 +61,12 @@ text{
 }
 
 #slider-label{
-    margin-left: 10px;
+    margin-left: 5px;
     display:inline-block;
+}
+
+
+
+#year{
+    width:50px;
 }

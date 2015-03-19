@@ -59,31 +59,38 @@
 <br>
 <br>
 <br>
-<div id="policy" class="pull-right panel">
+<div id="policy-container" class="pull-right">
+    <div id="policy" class="pull-right panel">
 
-    <div id="policy-header">
-        <span id="policy-title-text"  >Policies implemented in </span>
-        <div ><input id="policy-year" style="display:inline-block; border:0; font-weight:bold; background-color: black; font-color:white; " type="text"></div>
-        <div ><input id="gdp-year" style="display:inline-block; border:0; font-weight:bold; background-color: black; font-color:white; " type="text"></div>
-        <div ><input id="pop-year" style="display:inline-block; border:0; font-weight:bold; background-color: black; font-color:white; " type="text"></div>
-        <div ><input id="tot-year" style="display:inline-block; border:0; font-weight:bold; background-color: black; font-color:white; " type="text"></div>
+        <div id="policy-header">
+            <span id="policy-title-text"  >Policies implemented in </span>
+            <div ><input id="policy-year" style="display:inline-block; border:0; font-weight:bold; background-color: black; font-color:white; " type="text"></div>
+            <div ><input id="gdp-year" style="display:inline-block; border:0; font-weight:bold; background-color: black; font-color:white; " type="text"></div>
+            <div ><input id="pop-year" style="display:inline-block; border:0; font-weight:bold; background-color: black; font-color:white; " type="text"></div>
+            <div ><input id="tot-year" style="display:inline-block; border:0; font-weight:bold; background-color: black; font-color:white; " type="text"></div>
+        </div>
+
+         <hr/>
+        <section id="policy-section" class="panel">
+            Policy Information
+        </section>
+
+
     </div>
-
-     <hr/>
-    <section id="policy-section" class="panel">
-        Section text
-    </section>
-    <div id="slidercontainer" style="width:100%;text-align:center">
-        <div id="pie-chart"></div>
-        <div id="slider1" style="width:300px;margin-left:auto;margin-right:auto;margin-top:20px"></div>
+    <div id="created-by" class="panel panel-default pull-right">
+        <div id="created-by-text" class="panel-body">
+            Created by:
+            <br>
+            Aman Sinha & Nikhil Devlekar
+        </div>
     </div>
 </div>
 
-
 <div id="map"></div>
 
-<div id="slider" ></div><div id="slider-label" ><label for="year" style="display:inline;"> Year:</label><input type="text" id="year" style="border:0; color:#f6931f; font-weight:bold; display:inline; " /></div>
-
+<div id="slider-container">
+    <div id="slider" ></div><div id="slider-label" ><label id="slide-label1" for="year" style="display:inline;"> Year:</label><input type="text" id="year" style="border:0; color:#f6931f; font-weight:bold; display:inline; " /></div>
+</div>
 <div id="bar"></div>
 
 
