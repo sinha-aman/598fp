@@ -94,10 +94,14 @@ body {
     margin-left: 15px;
 }
 
+#policy-container {
+    width: 352px;
+}
+
 #policy {
     display: inline-block;
     width: 350px;
-    height: 600px;
+    height: 650px;
     background-color: black;
     color: white;
     padding: 15px;
@@ -111,7 +115,7 @@ body {
 
 #policy-section {
     background-color: white;
-    height: 350px;
+    height: 400px;
     padding: 15px;
     color: black;
     overflow: auto;
@@ -132,4 +136,23 @@ body {
 
 #gdp-year {
     width: 320px;
+}
+
+#created-by {
+    background-color: black;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: -10px;
+    color: white;
+
+    font-size: 20px;
+    width: 350px;
+    height: 100px;
+    padding: 15px;
+    float: right;
+}
+
+#created-by-text {
+    color: white;
+    margin-top: -10px;
 }
